@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="ch">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="http://cdn.amazeui.org/amazeui/2.7.2/css/amazeui.min.css">
+    <!-- amazeui UI库 -->
+    <link href="https://cdn.bootcss.com/minireset.css/0.0.2/minireset.css" rel="stylesheet">
+    <!-- reset 样式重置 -->
+    <link rel="stylesheet" href="./index.css">
+    <!-- 自定义样式 -->
+</head>
+
+<body>
+        <header style="height: 100px; position: relative;margin-bottom: 50px;" class="am-topbar am-topbar-inverse">
+                <div class="clearfix" style="width: 1100px; margin: 0px auto; position: absolute;left: 0;right: 0;z-index: 99999;   height: inherit; padding-top: 10px;">
+                    <h1 style="text-align: center" class="am-topbar-brand clearfix">
+                        <img src="../logo.gif" />
+                        <p style="font-size: 14px;font-weight: bold; line-height: initial;"> 基于互联网在线数据的居民消费价格指数</p>
+                    </h1>
+                    <ul class="am-nav am-nav-tabs" style="margin: 25px; text-align: right;border-bottom: 0px; float: right;">
+                        <li>
+                            <a href="../home/index.html">首页</a>
+                        </li>
+        
+                        <li class="am-dropdown" data-am-dropdown>
+                            <a class="am-dropdown-toggle" data-am-dropdown-toggle href="javascript:;">
+                                最新动态
+                                <span class="am-icon-caret-down"></span>
+                            </a>
+                            <ul class="am-dropdown-content">
+                                <li>
+                                    <a href="../news/index.html">最新动态</a>
+                                </li>
+                                <li>
+                                    <a href="../news/index.html">大类分析</a>
+                                </li>
+                                <li>
+                                    <a href="../news/index.html">专题特刊</a>
+                                </li>
+        
+                            </ul>
+                        </li>
+                        <li class="am-dropdown" data-am-dropdown>
+                            <a class="am-dropdown-toggle" data-am-dropdown-toggle href="javascript:;">
+                                指数查询
+                                <span class="am-icon-caret-down"></span>
+                            </a>
+                            <ul class="am-dropdown-content">
+                                <li>
+                                    <a href="../data/index.html">指数概览</a>
+                                </li>
+                                <li>
+                                    <a href="../charts/index.html">走势图</a>
+                                </li>
+        
+                            </ul>
+                        </li>
+                        <li class="am-dropdown" data-am-dropdown>
+                            <a class="am-dropdown-toggle" data-am-dropdown-toggle href="javascript:;">
+                                技术支持
+                                <span class="am-icon-caret-down"></span>
+                            </a>
+                            <ul class="am-dropdown-content">
+                                <li>
+                                    <a href="../support/index.html">项目团队</a>
+                                </li>
+                                <li>
+                                    <a href="../work/index.html">工作论文</a>
+                                </li>
+        
+                            </ul>
+                        </li>
+                        <li class="am-active">
+                            <a href="../contactus/index.html">联系我们</a>
+                        </li>
+                    </ul>
+        
+        
+                </div>
+            </header>
+    <div class="content">
+
+        <div class="inputs-box clearfix">
+            
+            <div class="am-form-group">
+                <label style="font-size: 16px; font-weight: bold;" for="doc-vld-name">您的姓名：</label>
+                <input type="text" id="doc-vld-name" minlength="3" placeholder="输入您的姓名" class="am-form-field" required/>
+            </div>
+            <div class="am-form-group">
+                <label style="font-size: 16px; font-weight: bold;" for="doc-vld-name">您的邮箱：</label>
+                <input type="text" id="doc-vld-name" minlength="3" placeholder="输入您的邮箱" class="am-form-field" required/>
+            </div>
+            <div class="textarea-box">
+                <label style="font-size: 16px; font-weight: bold;" for="doc-vld-name">留言内容：</label>
+                <textarea style="font-size: 1.6rem; border-color: #cccccc;" rows="8" placeholder=" 输入您的留言内容" class="textarea" id="doc-ta-1"></textarea>
+            </div>
+        </div>
+        <div style="    padding-top: 30px;">
+                <button style="width: 100%" type="button" class="am-btn am-btn-secondary">确认提交</button>
+         </div>
+        <div style="position: relative;" class="clearfix footer">
+                <div style="float:left ;">
+                        <img src="./icon.jpg" />
+                    </div>
+            <div style="float: right;     float: right;
+            position: absolute;
+            color: #070954;
+            font-weight: bold;
+            font-size: 20px;
+            right: 100px;
+            bottom:30px;">
+                <p>联系我们</p>
+                <p>Tel : 010-62786517</p>
+                <p>Email : oindex@126.com</p>
+                <p>微信公众号 ：大数据经济观察</p>
+            </div>
+            
+        </div>
+    </div>
+</body>
+<script src="https://cdn.bootcss.com/jquery/3.3.1/jquery.min.js"></script>
+<script src="http://cdn.amazeui.org/amazeui/2.7.2/js/amazeui.min.js"></script>
+
+
+</html>

@@ -1,0 +1,104 @@
+body header {
+  border: 1px solid red;
+  width: 100%;
+  height: 70px;
+  background: red;
+}
+body header li {
+  border: none;
+}
+body header .am-active {
+  border: none;
+}
+body header a {
+  background: none !important;
+  border: none !important;
+  font-weight: bold !important;
+}
+body .content {
+  width: 1100px;
+  margin: 0 auto;
+  padding: 20px 0px;
+}
+body .content .header-buts {
+  padding-bottom: 50px;
+}
+body .content .header-buts .am-btn-group {
+  float: left;
+}
+body .content .header-buts .am-btn-group button {
+  padding: 10px 40px;
+}
+body .content .header-buts .go-charts {
+  float: right;
+}
+body .content .class-all-box thead tr th:nth-child(1),
+body .content .class-item-box thead tr th:nth-child(1) {
+  width: 30%;
+  padding-left: 50px;
+}
+body .content .class-all-box thead tr th:nth-child(2),
+body .content .class-item-box thead tr th:nth-child(2) {
+  width: 20%;
+}
+body .content .class-all-box thead tr th:nth-child(3),
+body .content .class-item-box thead tr th:nth-child(3) {
+  width: 30%;
+  padding-right: 50px;
+}
+body .content .class-all-box .class-item .add,
+body .content .class-item-box .class-item .add {
+  color: red;
+}
+body .content .class-all-box .class-item .minus,
+body .content .class-item-box .class-item .minus {
+  color: green;
+}
+body .content .class-all-box .class-item td:nth-child(1),
+body .content .class-item-box .class-item td:nth-child(1) {
+  width: 30%;
+  text-align: left;
+  padding-left: 50px;
+}
+body .content .class-all-box .class-item td:nth-child(2),
+body .content .class-item-box .class-item td:nth-child(2) {
+  width: 20%;
+  text-align: right;
+}
+body .content .class-all-box .class-item td:nth-child(3),
+body .content .class-item-box .class-item td:nth-child(3) {
+  width: 30%;
+  text-align: right;
+  padding-right: 50px;
+}
+body .content .class-all-box .class-item:hover,
+body .content .class-item-box .class-item:hover {
+  background: rgba(17, 144, 210, 0.28);
+}
+body .content .select-box {
+  padding-top: 50px;
+  border-top: 1px solid #636262;
+}
+body .content .select-box .items {
+  text-align: center;
+  font-size: 0px;
+}
+body .content .select-box .items .item {
+  font-size: 14px;
+  width: 25%;
+  display: inline-block;
+}
+body .clearfix:after {
+  content: "";
+  display: block;
+  clear: both;
+}
+body .align-left {
+  text-align: left;
+}
+body .align-right {
+  text-align: right;
+}
+body .align-center {
+  text-align: center;
+}

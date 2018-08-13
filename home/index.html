@@ -1,0 +1,283 @@
+<!DOCTYPE html>
+<html lang="ch">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="http://cdn.amazeui.org/amazeui/2.7.2/css/amazeui.min.css">
+    <!-- amazeui UI库 -->
+    <link href="https://cdn.bootcss.com/minireset.css/0.0.2/minireset.css" rel="stylesheet">
+    <!-- reset 样式重置 -->
+    <link rel="stylesheet" href="./index.css">
+    <!-- 自定义样式 -->
+    <title>Document</title>
+
+</head>
+
+<body>
+    <header style="height: 100px; position: relative;margin-bottom: 50px;" class="am-topbar am-topbar-inverse">
+        <div class="clearfix" style="width: 1100px; margin: 0px auto; position: absolute;left: 0;right: 0;z-index: 99999;   height: inherit; padding-top: 10px;">
+            <h1 style="text-align: center" class="am-topbar-brand clearfix">
+                <img src="../logo.gif" />
+                <p style="font-size: 14px;font-weight: bold; line-height: initial;"> 基于互联网在线数据的居民消费价格指数</p>
+            </h1>
+            <ul class="am-nav am-nav-tabs" style="margin: 25px; text-align: right;border-bottom: 0px; float: right;">
+                <li class="am-active">
+                    <a href="./index.html">首页</a>
+                </li>
+
+                <li class="am-dropdown" data-am-dropdown>
+                    <a class="am-dropdown-toggle" data-am-dropdown-toggle href="javascript:;">
+                        最新动态
+                        <span class="am-icon-caret-down"></span>
+                    </a>
+                    <ul class="am-dropdown-content">
+                        <li>
+                            <a href="../news/index.html">最新动态</a>
+                        </li>
+                        <li>
+                            <a href="../news/index.html">大类分析</a>
+                        </li>
+                        <li>
+                            <a href="../news/index.html">专题特刊</a>
+                        </li>
+
+                    </ul>
+                </li>
+                <li class="am-dropdown" data-am-dropdown>
+                    <a class="am-dropdown-toggle" data-am-dropdown-toggle href="javascript:;">
+                        指数查询
+                        <span class="am-icon-caret-down"></span>
+                    </a>
+                    <ul class="am-dropdown-content">
+                        <li>
+                            <a href="../data/index.html">指数概览</a>
+                        </li>
+                        <li>
+                            <a href="../charts/index.html">走势图</a>
+                        </li>
+
+                    </ul>
+                </li>
+                <li class="am-dropdown" data-am-dropdown>
+                    <a class="am-dropdown-toggle" data-am-dropdown-toggle href="javascript:;">
+                        技术支持
+                        <span class="am-icon-caret-down"></span>
+                    </a>
+                    <ul class="am-dropdown-content">
+                        <li>
+                            <a href="../support/index.html">项目团队</a>
+                        </li>
+                        <li>
+                            <a href="../work/index.html">工作论文</a>
+                        </li>
+
+                    </ul>
+                </li>
+                <li>
+                    <a href="../contactus/index.html">联系我们</a>
+                </li>
+            </ul>
+
+
+        </div>
+    </header>
+    <div class="content">
+
+        <div id="your-slider" class="am-slider am-slider-default">
+            <ul class="am-slides">
+
+                <li>
+                    <img style="height: 300px" src='./img/WechatIMG4.jpeg' />
+                </li>
+                <li>
+                    <img style="height: 300px" src='./img/WechatIMG5.jpeg' />
+                </li>
+            </ul>
+        </div>
+        <section class="content-content clearfix">
+            <div id="echarts-box">
+
+            </div>
+            <div class="new-list">
+                <div data-am-widget="list_news" class="am-list-news am-list-news-default">
+                    <!--列表标题-->
+                    <div class="am-list-news-hd am-cf">
+                        <!--带更多链接-->
+                        <a href="##" class="">
+                            <h2>最新动态</h2>
+                            <span class="am-list-news-more am-fr">更多 &raquo;</span>
+                        </a>
+                    </div>
+
+                    <div class="am-list-news-bd">
+                        <ul class="am-list">
+
+                            <li class="am-g am-list-item-dated">
+                                <a target="_block" href="##" class="am-list-item-hd ">我很囧，你保重....晒晒旅行中的那些囧！</a>
+
+                                <span class="am-list-date">2013-09-18</span>
+
+
+                            </li>
+                            <li class="am-g am-list-item-dated">
+                                <a href="##" class="am-list-item-hd ">我最喜欢的一张画</a>
+
+                                <span class="am-list-date">2013-10-14</span>
+
+
+                            </li>
+                            <li class="am-g am-list-item-dated">
+                                <a href="##" class="am-list-item-hd ">我最喜欢的一张画</a>
+
+                                <span class="am-list-date">2013-10-14</span>
+
+
+                            </li>
+                            <li class="am-g am-list-item-dated">
+                                <a href="##" class="am-list-item-hd ">我最喜欢的一张画</a>
+
+                                <span class="am-list-date">2013-10-14</span>
+
+
+                            </li>
+                            <li class="am-g am-list-item-dated">
+                                <a href="##" class="am-list-item-hd ">“你的旅行，是什么颜色？” 晒照片，换北欧梦幻极光之旅！</a>
+
+                                <span class="am-list-date">2013-11-18</span>
+
+
+                            </li>
+                        </ul>
+                    </div>
+
+                </div>
+                <div data-am-widget="list_news" class="am-list-news am-list-news-default">
+                    <!--列表标题-->
+                    <div class="am-list-news-hd am-cf">
+                        <!--带更多链接-->
+                        <a href="##" class="">
+                            <h2>工作论文</h2>
+                            <span class="am-list-news-more am-fr">更多 &raquo;</span>
+                        </a>
+                    </div>
+
+                    <div class="am-list-news-bd">
+                        <ul class="am-list">
+
+                            <li class="am-g am-list-item-dated">
+                                <a href="##" class="am-list-item-hd ">我很囧，你保重....晒晒旅行中的那些囧！</a>
+
+                                <span class="am-list-date">2013-09-18</span>
+
+
+                            </li>
+                            <li class="am-g am-list-item-dated">
+                                <a href="##" class="am-list-item-hd ">我最喜欢的一张画</a>
+
+                                <span class="am-list-date">2013-10-14</span>
+
+
+                            </li>
+                            <li class="am-g am-list-item-dated">
+                                <a href="##" class="am-list-item-hd ">“你的旅行，是什么颜色？” 晒照片，换北欧梦幻极光之旅！</a>
+
+                                <span class="am-list-date">2013-11-18</span>
+
+
+                            </li>
+                        </ul>
+                    </div>
+
+                </div>
+            </div>
+        </section>
+        <table class="am-table table1">
+            <thead>
+                <tr>
+                    <th>分类名称</th>
+                    <th>今日指数</th>
+                    <th>昨日指数</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Amaze UI</td>
+                    <td>http://amazeui.org</td>
+                    <td>2012-10-01</td>
+                </tr>
+                <tr>
+                    <td>Amaze UI</td>
+                    <td>http://amazeui.org</td>
+                    <td>2012-10-01</td>
+                </tr>
+                <tr>
+                    <td>Amaze UI(Active)</td>
+                    <td>http://amazeui.org</td>
+                    <td>2012-10-01</td>
+                </tr>
+                <tr>
+                    <td>Amaze UI</td>
+                    <td>http://amazeui.org</td>
+                    <td>2012-10-01</td>
+                </tr>
+                <tr>
+                    <td>Amaze UI</td>
+                    <td>http://amazeui.org</td>
+                    <td>2012-10-01</td>
+                </tr>
+            </tbody>
+        </table>
+        <hr data-am-widget="divider" class="am-divider am-divider-dashed" />
+        <table class="am-table table2">
+            <thead>
+                <tr>
+                    <th>中类名称</th>
+                    <th>本周指数</th>
+                    <th>上周指数</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Amaze UI</td>
+                    <td>http://amazeui.org</td>
+                    <td>2012-10-01</td>
+                </tr>
+                <tr>
+                    <td>Amaze UI</td>
+                    <td>http://amazeui.org</td>
+                    <td>2012-10-01</td>
+                </tr>
+                <tr>
+                    <td>Amaze UI(Active)</td>
+                    <td>http://amazeui.org</td>
+                    <td>2012-10-01</td>
+                </tr>
+                <tr>
+                    <td>Amaze UI</td>
+                    <td>http://amazeui.org</td>
+                    <td>2012-10-01</td>
+                </tr>
+                <tr>
+                    <td>Amaze UI</td>
+                    <td>http://amazeui.org</td>
+                    <td>2012-10-01</td>
+                </tr>
+            </tbody>
+        </table>
+        <hr style="    margin: 100px 0px 10px;" data-am-widget="divider" class="am-divider am-divider-default" />
+        <a style="display: block; text-align: center;margin-bottom: 50px; font-size: 12px; color: #333;" href="http://www.miitbeian.gov.cn/">备案号:京ICP备16034318号</a>
+    </div>
+    
+</body>
+<div id="particles-js"></div>
+<script src="https://cdn.bootcss.com/jquery/3.3.1/jquery.min.js"></script>
+<script src="http://cdn.amazeui.org/amazeui/2.7.2/js/amazeui.min.js"></script>
+<script src="https://cdn.bootcss.com/echarts/4.1.0.rc2/echarts-en.min.js"></script>
+
+
+<script src="particles.js"></script>
+<script src="./index.js"></script>
+
+</html>

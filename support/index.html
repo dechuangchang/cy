@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="ch">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="http://cdn.amazeui.org/amazeui/2.7.2/css/amazeui.min.css">
+    <!-- amazeui UI库 -->
+    <link href="https://cdn.bootcss.com/minireset.css/0.0.2/minireset.css" rel="stylesheet">
+    <!-- reset 样式重置 -->
+    <link rel="stylesheet" href="./index.css">
+</head>
+
+<body>
+    <header style="height: 100px; position: relative;margin-bottom: 50px;" class="am-topbar am-topbar-inverse">
+        <div class="clearfix" style="width: 1100px; margin: 0px auto; position: absolute;left: 0;right: 0;z-index: 99999;   height: inherit; padding-top: 10px;">
+            <h1 style="text-align: center" class="am-topbar-brand clearfix">
+                <img src="../logo.gif" />
+                <p style="font-size: 14px;font-weight: bold; line-height: initial;"> 基于互联网在线数据的居民消费价格指数</p>
+            </h1>
+            <ul class="am-nav am-nav-tabs" style="margin: 25px; text-align: right;border-bottom: 0px; float: right;">
+                <li>
+                    <a href="../home/index.html">首页</a>
+                </li>
+
+                <li class="am-dropdown" data-am-dropdown>
+                    <a class="am-dropdown-toggle" data-am-dropdown-toggle href="javascript:;">
+                        最新动态
+                        <span class="am-icon-caret-down"></span>
+                    </a>
+                    <ul class="am-dropdown-content">
+                        <li>
+                            <a href="../news/index.html">最新动态</a>
+                        </li>
+                        <li>
+                            <a href="../news/index.html">大类分析</a>
+                        </li>
+                        <li>
+                            <a href="../news/index.html">专题特刊</a>
+                        </li>
+
+                    </ul>
+                </li>
+                <li class="am-dropdown" data-am-dropdown>
+                    <a class="am-dropdown-toggle" data-am-dropdown-toggle href="javascript:;">
+                        指数查询
+                        <span class="am-icon-caret-down"></span>
+                    </a>
+                    <ul class="am-dropdown-content">
+                        <li>
+                            <a href="../data/index.html">指数概览</a>
+                        </li>
+                        <li>
+                            <a href="../charts/index.html">走势图</a>
+                        </li>
+
+                    </ul>
+                </li>
+                <li class="am-dropdown" data-am-dropdown>
+                    <a style="color: #555" class="am-dropdown-toggle" data-am-dropdown-toggle href="javascript:;">
+                        技术支持
+                        <span class="am-icon-caret-down"></span>
+                    </a>
+                    <ul class="am-dropdown-content">
+                        <li>
+                            <a href="../support/index.html">项目团队</a>
+                        </li>
+                        <li>
+                            <a href="../work/index.html">工作论文</a>
+                        </li>
+
+                    </ul>
+                </li>
+                <li>
+                    <a href="../contactus/index.html">联系我们</a>
+                </li>
+            </ul>
+
+
+        </div>
+    </header>
+    <div class="content">
+        <div class="am-panel am-panel-success">
+            <div class="am-panel-hd">项目目标</div>
+            <div class="am-panel-bd">
+
+
+                <div style="text-indent: 2em;" class="am-article-bd">
+
+                    <blockquote>
+                        <p style="padding-left: 20px; ">项目旨在探索利用实时数据构造CPI、预测通货膨胀，从而建立起时效性更强、可靠性更高的宏观经济描述和预测的方法与体系，为宏观经济决策提供更迅捷更准确的新参考</p>
+                    </blockquote>
+
+
+                </div>
+
+            </div>
+        </div>
+        <div class="am-panel am-panel-warning">
+            <div class="am-panel-hd">CPI指数编制方法设计(四个步骤)</div>
+            <div class="am-panel-bd">
+                <div style="text-indent: 2em;     margin-bottom: 20px;" class="am-article-bd">
+                    <h3 style="    margin-bottom: 14px;">一、确定商品篮子及URL</h3>
+                    <blockquote>
+                        <p style="padding-left: 20px; ">(a).按照国家统计局CPI的篮子：8大类、262个子类</p>
+                        <p style="padding-left: 20px; ">(b).规格品挑选原则：选取市场份额大、价格稳定且同时在多个平台销售</p>
+                    </blockquote>
+
+
+                </div>
+
+                <div style="text-indent: 2em;    margin-bottom: 20px;" class="am-article-bd">
+                    <h3 style="    margin-bottom: 14px;">二、数据抓取与处理</h3>
+                    <blockquote>
+                        <p style="padding-left: 20px; ">(a).抓取数据</p>
+                        <p style="padding-left: 20px; ">(b).数据清洗</p>
+                    </blockquote>
+
+                </div>
+                <div style="text-indent: 2em;    margin-bottom: 20px;" class="am-article-bd">
+                    <h3 style="    margin-bottom: 14px;">三、确定权重</h3>
+                    <blockquote>
+                        <p style="padding-left: 20px; ">iCPI、大类、中类、子类</p>
+                    </blockquote>
+
+                </div>
+                <div style="text-indent: 2em;    margin-bottom: 20px;" class="am-article-bd">
+                    <h3 style="    margin-bottom: 14px;">四、指数计算</h3>
+                    <blockquote>
+                        <p style="padding-left: 20px; ">(a).日指数</p>
+                        <p style="padding-left: 20px; ">(b).周指数</p>
+                        <p style="padding-left: 20px; ">(c).月指数</p>
+                    </blockquote>
+                </div>
+            </div>
+
+        </div>
+        <div class="am-panel am-panel-success">
+            <div class="am-panel-hd">相关进展</div>
+            <div class="am-panel-bd">
+
+
+                <div class="am-article-bd">
+
+                    <blockquote>
+                        <p style="padding-left: 20px; ">
+                            <a href="http://mp.weixin.qq.com/s?__biz=MzIyNzQ5NjI4Ng==&amp;mid=2247483712&amp;idx=1&amp;sn=c5835c77e2cecdd57dc2900fe4126411&amp;chksm=e8611971df169067accd6ee57bc73805ab1fc9758603c66b7a546e3d052048b277c51ed7b4a1&amp;mpshare=1&amp;scene=2&amp;srcid=1104NNSNJQqeUYFw8WKZx8w0&amp;from=timeline#wechat_redirect">
+                                (1). 2016年11月4日上午10点，“清数-iCPI 新闻发布会”在清华大学主楼召开。</a>
+                            <br>
+                            <a href="http://www.stats.gov.cn/"> (2). 中华人民共和国国家统计局</a>
+                            <br>
+                            <a href="http://bpp.mit.edu/"> (3). MIT十亿价格项目</a>
+                            <br>
+                        </p>
+                    </blockquote>
+
+
+                </div>
+
+            </div>
+        </div>
+        <div class="am-panel am-panel-secondary">
+            <div class="am-panel-hd">关于我们</div>
+            <div class="am-panel-bd">
+
+
+                <div class="am-article-bd">
+
+                    <blockquote>
+                        <p style="padding-left: 20px; ">
+                            团队由来自清华大学社会科学学院经济学研究所的刘涛雄教授、汤珂教授与清华大学计算机系许斌教授联合指导，成员具备经济学背景和计算机背景，具体包括多位工程师、博士及硕士生。团队成员富有创新和探索精神，有志于将大数据技术与经济分析相结合，为洞察新常态下的中国经济提供新的视角。
+                        </p>
+                    </blockquote>
+
+
+                </div>
+
+            </div>
+        </div>
+</body>
+<script src="https://cdn.bootcss.com/jquery/3.3.1/jquery.min.js"></script>
+<script src="http://cdn.amazeui.org/amazeui/2.7.2/js/amazeui.min.js"></script>
+
+</html>
